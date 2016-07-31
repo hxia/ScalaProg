@@ -1,0 +1,174 @@
+Your overall score for this assignment is 6.58 out of 10.00
+
+
+The code you submitted did not pass all of our tests: your submission achieved a score of
+4.58 out of 8.00 in our tests.
+
+In order to find bugs in your code, we advise to perform the following steps:
+ - Take a close look at the test output that you can find below: it should point you to
+   the part of your code that has bugs.
+ - Run the tests that we provide with the handout on your code.
+ - The tests we provide do not test your code in depth: they are very incomplete. In order
+   to test more aspects of your code, write your own unit tests.
+ - Take another very careful look at the assignment description. Try to find out if you
+   misunderstood parts of it. While reading through the assignment, write more tests.
+
+Below you can find a short feedback for every individual test that failed.
+
+Our automated style checker tool could not find any issues with your code. You obtained the maximal
+style score of 2.00.
+
+======== LOG OF FAILED TESTS ========
+Your solution achieved a testing score of 154 out of 269.
+
+Below you can see a short feedback for every test that failed,
+indicating the reason for the test failure and how many points
+you lost for each individual test.
+
+Tests that were aborted took too long too complete or crashed the
+JVM. Such crashes can arise due to infinite non-terminitaing
+loops or recursion (StackOverflowException) or excessive mamory
+consumption (OutOfMemoryException).
+
+[Test Description] 'createCodeTree(someText)' gives an optimal encoding, the number of bits when encoding 'someText' is minimal
+[Observed Error] Unkown codeTree
+[exception was thrown] detailed error message in debug output section below
+[Lost Points] 15
+
+[Test Description] encode some text with frenchCode
+[Observed Error] Unkown codeTree
+[exception was thrown] detailed error message in debug output section below
+[Lost Points] 20
+
+[Test Description] decode and encode a very short text with a larger tree
+[Observed Error] Unkown codeTree
+[exception was thrown] detailed error message in debug output section below
+[Lost Points] 10
+
+[Test Description] convert: code table is created correctly
+[Observed Error] test has been aborted
+[Lost Points] 20
+
+[Test Description] decode and encode some longer text should be identity
+[Observed Error] Unkown codeTree
+[exception was thrown] detailed error message in debug output section below
+[Lost Points] 10
+
+======== TESTING ENVIRONMENT ========
+Limits: memory: 256m,  total time: 850s,  per test case time: 240s
+
+======== DEBUG OUTPUT OF TESTING TOOL ========
+[test failure log] test name: HuffmanSuite::encode some text with frenchCode::20
+java.lang.Error: Unkown codeTree
+patmat.Huffman$.lookupTable$1(Huffman.scala:214)
+patmat.Huffman$.encode(Huffman.scala:217)
+patmat.HuffmanSuite$$anonfun$18$$anon$5.<init>(HuffmanSuite.scala:159)
+patmat.HuffmanSuite$$anonfun$18.apply$mcV$sp(HuffmanSuite.scala:158)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply$mcV$sp(GradingSuite.scala:118)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply(GradingSuite.scala:117)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply(GradingSuite.scala:117)
+org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+org.scalatest.Transformer.apply(Transformer.scala:22)
+org.scalatest.Transformer.apply(Transformer.scala:20)
+org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)
+org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+org.scalatest.FunSuite.withFixture(FunSuite.scala:1555)
+org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:163)
+org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:175)
+org.scalatest.FunSuite.runTest(FunSuite.scala:1555)
+org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+
+
+[test failure log] test name: HuffmanSuite::'createCodeTree(someText)' gives an optimal encoding, the number of bits when encoding 'someText' is minimal::15
+java.lang.Error: Unkown codeTree
+patmat.Huffman$.lookupTable$1(Huffman.scala:214)
+patmat.Huffman$.encode(Huffman.scala:217)
+patmat.HuffmanSuite$$anonfun$20$$anon$7.<init>(HuffmanSuite.scala:173)
+patmat.HuffmanSuite$$anonfun$20.apply$mcV$sp(HuffmanSuite.scala:171)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply$mcV$sp(GradingSuite.scala:118)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply(GradingSuite.scala:117)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply(GradingSuite.scala:117)
+org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+org.scalatest.Transformer.apply(Transformer.scala:22)
+org.scalatest.Transformer.apply(Transformer.scala:20)
+org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)
+org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+org.scalatest.FunSuite.withFixture(FunSuite.scala:1555)
+org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:163)
+org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:175)
+org.scalatest.FunSuite.runTest(FunSuite.scala:1555)
+org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+
+
+[test failure log] test name: HuffmanSuite::decode and encode a very short text with a larger tree::10
+java.lang.Error: Unkown codeTree
+patmat.Huffman$.lookupTable$1(Huffman.scala:214)
+patmat.Huffman$.encode(Huffman.scala:217)
+patmat.HuffmanSuite$$anonfun$22$$anon$9.<init>(HuffmanSuite.scala:191)
+patmat.HuffmanSuite$$anonfun$22.apply$mcV$sp(HuffmanSuite.scala:190)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply$mcV$sp(GradingSuite.scala:118)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply(GradingSuite.scala:117)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply(GradingSuite.scala:117)
+org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+org.scalatest.Transformer.apply(Transformer.scala:22)
+org.scalatest.Transformer.apply(Transformer.scala:20)
+org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)
+org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+org.scalatest.FunSuite.withFixture(FunSuite.scala:1555)
+org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:163)
+org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:175)
+org.scalatest.FunSuite.runTest(FunSuite.scala:1555)
+org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)
+
+
+[test failure log] test name: HuffmanSuite::decode and encode some longer text should be identity::10
+java.lang.Error: Unkown codeTree
+patmat.Huffman$.lookupTable$1(Huffman.scala:214)
+patmat.Huffman$.encode(Huffman.scala:217)
+patmat.HuffmanSuite$$anonfun$23$$anon$10.<init>(HuffmanSuite.scala:197)
+patmat.HuffmanSuite$$anonfun$23.apply$mcV$sp(HuffmanSuite.scala:196)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply$mcV$sp(GradingSuite.scala:118)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply(GradingSuite.scala:117)
+ch.epfl.lamp.grading.GradingSuite$$anonfun$test$1.apply(GradingSuite.scala:117)
+org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)
+org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+org.scalatest.Transformer.apply(Transformer.scala:22)
+org.scalatest.Transformer.apply(Transformer.scala:20)
+org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:166)
+org.scalatest.Suite$class.withFixture(Suite.scala:1122)
+org.scalatest.FunSuite.withFixture(FunSuite.scala:1555)
+org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:163)
+org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:175)
+org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
+org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:175)
+org.scalatest.FunSuite.runTest(FunSuite.scala:1555)
+org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:208)
+org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:413)
+org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:401)

@@ -1,0 +1,223 @@
+
+Your overall score for this assignment is 8.15 out of 10.00
+
+
+The code you submitted did not pass all of our tests: your submission achieved a score of
+6.15 out of 8.00 in our tests.
+
+In order to find bugs in your code, we advise to perform the following steps:
+ - Take a close look at the test output that you can find below: it should point you to
+   the part of your code that has bugs.
+ - Run the tests that we provide with the handout on your code.
+ - The tests we provide do not test your code in depth: they are very incomplete. In order
+   to test more aspects of your code, write your own unit tests.
+ - Take another very careful look at the assignment description. Try to find out if you
+   misunderstood parts of it. While reading through the assignment, write more tests.
+
+Below you can find a short feedback for every individual test that failed.
+
+Our automated style checker tool could not find any issues with your code. You obtained the maximal
+style score of 2.00.
+
+======== LOG OF FAILED TESTS ========
+Your solution achieved a testing score of 200 out of 260.
+
+Below you can see a short feedback for every test that failed,
+indicating the reason for the test failure and how many points
+you lost for each individual test.
+
+Tests that were aborted took too long too complete or crashed the
+JVM. Such crashes can arise due to infinite non-terminitaing
+loops or recursion (StackOverflowException) or excessive mamory
+consumption (OutOfMemoryException).
+
+[Test Description] sentence anagrams: Lukas Rytz
+[Observed Error] Set(List()) did not equal Set(List("Ku", "Salz", "try"), List("Katz", "surly"), List("Salz", "try", "Ku"), List("Ku", "try", "Salz"), List("Salz", "Ku", "try"), List("try", "Ku", "Salz"), List("surly", "Katz"), List("try", "Salz", "Ku"))
+[Lost Points] 10
+
+[Test Description] sentence anagrams: I love you
+[Observed Error] Set(List()) did not equal Set(List("Lev", "you", "Io"), List("Io", "you", "Lev"), List("Io", "Lev", "you"), List("you", "Io", "Lev"), List("you", "olive"), List("you", "Lev", "Io"), List("Lev", "Io", "you"), List("olive", "you"))
+[Lost Points] 10
+
+[Test Description] subtract: assessment - assess
+[Observed Error] List((e,1), (n,1), (t,1), (m,1)) did not equal List((e,1), (m,1), (n,1), (t,1))
+[Lost Points] 10
+
+[Test Description] sentence anagrams: Yell Xerxes
+[Observed Error] Set(List()) did not equal Set(List("yell", "Xerxes"), List("sex", "yell", "Rex"), List("Lyle", "sex", "Rex"), List("Xerxes", "yell"), List("Lyle", "Xerxes"), List("yell", "sex", "Rex"), List("Lyle", "Rex", "sex"), List("Rex", "yell", "sex"), List("Rex", "sex", "yell"), List("sex", "Rex", "yell"), List("yell", "Rex", "sex"), List("sex", "Lyle", "Rex"), List("Rex", "Lyle", "sex"), List("sex", "Rex", "Lyle"), List("Rex", "sex", "Lyle"), List("Xerxes", "Lyle"))
+[Lost Points] 10
+
+[Test Description] sentence anagrams: Heather
+[Observed Error] Set(List()) did not equal Set(List("re", "the", "ha"), List("he", "hat", "re"), List("three", "ha"), List("hare", "the"), List("her", "Thea"), List("at", "he", "her"), List("her", "et", "ha"), List("re", "ah", "the"), List("he", "he", "art"), List("hear", "the"), List("et", "her", "ha"), List("he", "re", "hat"), List("hat", "re", "he"), List("heather"), List("he", "heart"), List("re", "ha", "the"), List("here", "hat"), List("he", "at", "her"), List("he", "hater"), List("ah", "three"), List("her", "heat"), List("he", "earth"), List("there", "ha"), List("ha", "re", "the"), List("re", "heath"), List("et", "ha", "her"), List("ah", "et", "her"), List("ah", "her", "et"), List("re", "the", "ah"), List("he", "he", "rat"), List("rat", "he", "he"), List("ha", "ether"), List("ha", "her", "et"), List("he", "tar", "he"), List("he", "rat", "he"), List("at", "her", "he"), List("ha", "there"), List("ether", "ha"), List("art", "he", "he"), List("ah", "re", "the"), List("tar", "he", "he"), List("hate", "her"), List("the", "hear"), List("he", "art", "he"), List("earth", "he"), List("Rhea", "the"), List("three", "ah"), List("et", "ah", "her"), List("her", "et", "ah"), List("the", "hare"), List("the", "re", "ah"), List("re", "hat", "he"), List("her", "at", "he"), List("hat", "he", "re"), List("he", "he", "tar"), List("ha", "the", "re"), List("the", "Hera"), List("ah", "the", "re"), List("et", "her", "ah"), List("ha", "three"), List("heat", "her"), List("hater", "he"), List("the", "ha", "re"), List("he", "her", "at"), List("heart", "he"), List("there", "ah"), List("ah", "there"), List("ah", "ether"), List("Hera", "the"), List("her", "he", "at"), List("hat", "here"), List("ha", "et", "her"), List("the", "ah", "re"), List("her", "ah", "et"), List("ether", "ah"), List("the", "Rhea"), List("her", "hate"), List("re", "he", "hat"), List("heath", "re"), List("Thea", "her"), List("her", "ha", "et"), List("the", "re", "ha"))
+[Lost Points] 10
+
+[Test Description] sentence anagrams: Linux rulez
+[Observed Error] Set(List()) did not equal Set(List("Zulu", "nil", "Rex"), List("null", "Uzi", "Rex"), List("Zulu", "Lin", "Rex"), List("Uzi", "null", "Rex"), List("Uzi", "Rex", "null"), List("Rex", "Uzi", "null"), List("Lin", "Rex", "Zulu"), List("nil", "Rex", "Zulu"), List("nil", "Zulu", "Rex"), List("null", "Rex", "Uzi"), List("Rex", "Zulu", "Lin"), List("Rex", "nil", "Zulu"), List("Rex", "null", "Uzi"), List("Zulu", "Rex", "Lin"), List("Zulu", "Rex", "nil"), List("rulez", "Linux"), List("Rex", "Lin", "Zulu"), List("Rex", "Zulu", "nil"), List("Lin", "Zulu", "Rex"), List("Linux", "rulez"))
+[Lost Points] 10
+
+======== TESTING ENVIRONMENT ========
+Limits: memory: 256m,  total time: 850s,  per test case time: 240s
+
+======== DEBUG OUTPUT OF TESTING TOOL ========
+List((x,1), (n,1), (u,1), (i,1), (l,1))
+List((e,1), (x,1), (n,1), (u,1), (l,2), (r,1))
+List((e,1), (x,1), (n,1), (i,1), (l,1), (r,1))
+List((x,1), (u,2), (i,1), (l,2), (r,1))
+List((e,1), (x,1), (n,1), (u,2), (l,1), (r,1))
+List((e,1), (u,1), (l,1), (r,1), (z,1))
+List((e,1), (u,1), (l,2), (r,1), (z,1))
+List((n,1), (u,2), (i,1), (l,2), (z,1))
+List((n,1), (u,2), (i,1), (l,2), (r,1), (z,1))
+List((x,1), (u,1), (l,2), (z,1))
+List((e,1), (x,1), (u,1), (l,2), (z,1))
+List((e,1), (x,1), (u,1), (i,1), (l,2), (z,1))
+List((x,1), (n,1), (u,1), (i,1), (l,1), (z,1))
+List((e,1), (x,1), (n,1), (u,1), (l,2), (z,1))
+List((x,1), (n,1), (u,1), (i,1), (l,2), (z,1))
+List((e,1), (x,1), (u,1), (i,1), (r,1), (z,1))
+List((e,1), (x,1), (u,1), (i,1), (l,2), (r,1), (z,1))
+List((x,1), (n,1), (u,1), (l,1), (r,1), (z,1))
+List((x,1), (u,2), (l,1), (z,1))
+List((x,1), (u,2), (l,2), (z,1))
+List((e,1), (x,1), (n,1), (u,2), (z,1))
+List((x,1), (n,1), (u,2), (l,2), (z,1))
+List((x,1), (n,1), (u,2), (i,1), (l,2), (z,1))
+List((x,1), (u,2), (l,1), (r,1), (z,1))
+List((e,1), (x,1), (u,2), (l,1), (r,1), (z,1))
+List((x,1), (u,2), (i,1), (l,1), (r,1), (z,1))
+List((x,1), (u,2), (i,1), (r,1), (z,1))
+List((e,1), (x,1), (u,2), (l,2), (r,1), (z,1))
+List((x,1), (u,2), (i,1), (l,2), (r,1), (z,1))
+List((x,1), (n,1), (u,2), (l,1), (r,1), (z,1))
+List((e,1), (x,1), (n,1), (u,2), (r,1), (z,1))
+List((u,1), (i,1), (o,2))
+List((e,1), (u,1), (l,1), (o,2))
+List((e,1), (i,1), (v,1), (l,1), (o,1))
+List((e,1), (u,1), (v,1), (o,1))
+List((e,1), (u,1), (i,1), (v,1), (o,1))
+List((u,1), (i,1), (v,1), (o,2))
+List((y,1), (u,1), (o,1))
+List((y,1), (u,1), (i,1), (o,1))
+List((y,1), (u,1), (o,2))
+List((y,1), (u,1), (i,1), (o,2))
+List((y,1), (u,1), (l,1), (o,2))
+List((e,1), (y,1), (i,1), (v,1), (o,1))
+List((y,1), (v,1), (o,2))
+List((e,1), (y,1), (u,1), (v,1), (o,1))
+List((y,1), (u,1), (i,1), (v,1), (o,1))
+List((e,1), (y,1), (u,1), (v,1), (l,1), (o,1))
+List((y,1), (u,1), (v,1), (o,2))
+List((s,1), (t,1), (u,1), (r,1), (k,1))
+List((s,1), (y,1), (a,1), (r,1), (k,1))
+List((s,1), (y,1), (u,1), (l,1), (r,1))
+List((y,1), (t,1), (u,1), (r,1), (k,1))
+List((a,1), (k,1), (z,1))
+List((a,1), (l,1), (k,1), (z,1))
+List((a,1), (r,1), (k,1), (z,1))
+List((s,1), (a,1), (k,1), (z,1))
+List((t,1), (a,1), (k,1), (z,1))
+List((t,1), (a,1), (r,1), (z,1))
+List((u,1), (z,1))
+List((u,1), (l,1), (k,1), (z,1))
+List((u,1), (r,1), (k,1), (z,1))
+List((u,1), (l,1), (r,1), (k,1), (z,1))
+List((s,1), (u,1), (l,1), (k,1), (z,1))
+List((s,1), (u,1), (a,1), (l,1), (k,1), (z,1))
+List((t,1), (u,1), (l,1), (k,1), (z,1))
+List((t,1), (u,1), (r,1), (k,1), (z,1))
+List((t,1), (u,1), (a,1), (r,1), (k,1), (z,1))
+List((t,1), (u,1), (a,1), (l,1), (r,1), (z,1))
+List((t,1), (u,1), (l,1), (r,1), (k,1), (z,1))
+List((s,1), (t,1), (u,1), (k,1), (z,1))
+List((s,1), (t,1), (u,1), (l,1), (k,1), (z,1))
+List((s,1), (t,1), (u,1), (r,1), (k,1), (z,1))
+List((s,1), (t,1), (u,1), (l,1), (r,1), (z,1))
+List((y,1), (a,1), (l,1), (k,1), (z,1))
+List((y,1), (r,1), (k,1), (z,1))
+List((y,1), (a,1), (r,1), (k,1), (z,1))
+List((y,1), (a,1), (l,1), (r,1), (k,1), (z,1))
+List((s,1), (y,1), (k,1), (z,1))
+List((s,1), (y,1), (a,1), (l,1), (z,1))
+List((s,1), (y,1), (a,1), (l,1), (k,1), (z,1))
+List((s,1), (y,1), (l,1), (r,1), (k,1), (z,1))
+List((y,1), (t,1), (a,1), (z,1))
+List((y,1), (t,1), (a,1), (k,1), (z,1))
+List((y,1), (t,1), (l,1), (k,1), (z,1))
+List((y,1), (t,1), (r,1), (z,1))
+List((y,1), (t,1), (a,1), (r,1), (z,1))
+List((y,1), (t,1), (r,1), (k,1), (z,1))
+List((y,1), (t,1), (a,1), (l,1), (r,1), (k,1), (z,1))
+List((s,1), (y,1), (t,1), (a,1), (z,1))
+List((s,1), (y,1), (t,1), (k,1), (z,1))
+List((s,1), (y,1), (t,1), (a,1), (l,1), (r,1), (z,1))
+List((y,1), (u,1), (l,1), (z,1))
+List((y,1), (u,1), (l,1), (k,1), (z,1))
+List((y,1), (u,1), (r,1), (z,1))
+List((y,1), (u,1), (r,1), (k,1), (z,1))
+List((y,1), (u,1), (l,1), (r,1), (z,1))
+List((y,1), (u,1), (l,1), (r,1), (k,1), (z,1))
+List((s,1), (y,1), (u,1), (l,1), (k,1), (z,1))
+List((s,1), (y,1), (u,1), (r,1), (z,1))
+List((s,1), (y,1), (u,1), (l,1), (r,1), (k,1), (z,1))
+List((y,1), (t,1), (u,1), (z,1))
+List((y,1), (t,1), (u,1), (k,1), (z,1))
+List((y,1), (t,1), (u,1), (r,1), (z,1))
+List((y,1), (t,1), (u,1), (r,1), (k,1), (z,1))
+List((y,1), (t,1), (u,1), (l,1), (r,1), (z,1))
+List((y,1), (t,1), (u,1), (l,1), (r,1), (k,1), (z,1))
+List((s,1), (y,1), (t,1), (u,1), (z,1))
+List((s,1), (y,1), (t,1), (u,1), (l,1), (z,1))
+List((s,1), (y,1), (t,1), (u,1), (r,1), (k,1), (z,1))
+List((e,2), (x,1), (l,2), (r,1))
+List((e,1), (x,2), (l,2))
+List((x,2), (l,1), (r,1))
+List((e,3), (x,2), (l,1), (r,1))
+List((e,2), (x,2), (l,2), (r,1))
+List((e,1), (x,2), (l,2), (r,1))
+List((e,2), (s,1), (x,2), (l,1))
+List((e,1), (s,1), (x,2), (l,1))
+List((e,1), (s,1), (x,2))
+List((e,2), (s,1), (x,2), (l,2))
+List((e,1), (s,1), (x,2), (l,2))
+List((e,2), (s,1), (x,2), (l,1), (r,1))
+List((e,2), (s,1), (x,2), (r,1))
+List((e,1), (s,1), (x,2), (l,2), (r,1))
+List((e,2), (x,1), (y,1), (l,2), (r,1))
+List((e,2), (s,1), (x,1), (y,1), (l,2))
+List((e,2), (s,1), (x,1), (y,1), (l,2), (r,1))
+List((e,1), (y,1), (l,2))
+List((e,1), (x,2), (y,1), (l,1))
+List((e,1), (x,2), (y,1))
+List((e,1), (x,2), (y,1), (l,2))
+List((x,2), (y,1), (l,2))
+List((e,1), (x,2), (y,1), (l,1), (r,1))
+List((e,2), (x,2), (y,1), (r,1))
+List((e,1), (x,2), (y,1), (l,2), (r,1))
+List((e,1), (s,1), (x,2), (y,1), (l,1))
+List((e,2), (s,1), (x,2), (y,1), (l,2))
+List((e,1), (s,1), (x,2), (y,1), (l,2))
+List((e,1), (s,1), (x,2), (y,1), (l,1), (r,1))
+List((e,1), (h,1))
+List((h,1))
+List((a,1), (h,1))
+List((e,2), (h,1))
+List()
+List((e,1), (h,2))
+List((h,2))
+List((a,1), (h,2))
+List((e,2), (h,2))
+List((e,1), (h,1), (r,1))
+List((e,1), (a,1), (h,1), (r,1))
+List((e,2), (h,1), (r,1))
+List((e,1), (r,1))
+List((e,1), (h,2), (r,1))
+List((e,1), (a,1), (h,2), (r,1))
+List((e,2), (h,2), (r,1))
+List((e,1), (t,1), (h,1))
+List((e,1), (t,1), (a,1), (h,1))
+List((t,1), (a,1), (h,1))
+List((e,1), (t,1), (h,2))
+List((e,1), (t,1), (a,1), (h,2))
+List((t,1), (a,1), (h,2))
+List((e,1), (t,1), (a,1), (h,1), (r,1))
+List((e,2), (t,1), (h,1), (r,1))
